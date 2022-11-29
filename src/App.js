@@ -11,6 +11,7 @@ import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -73,8 +74,8 @@ function App() {
                   alt="Your Company"
                 />
               </div>
-              <div class="hidden sm:ml-6 sm:block">
-                <div class="flex space-x-4">
+              <div className="hidden sm:ml-6 sm:block">
+                <div className="flex space-x-4">
                   <NavLink
                     to="/about-me"
                     className={({ isActive }) =>
@@ -125,38 +126,57 @@ function App() {
           </div>
         </div>
 
-        {/* <div class="sm:hidden" id="mobile-menu">
-        <div class="space-y-1 px-2 pt-2 pb-3">
-          <a
-            href="#"
-            class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
-            aria-current="page"
-          >
-            Dashboard
-          </a>
+        <div class="sm:hidden" id="mobile-menu">
+          <div class="space-y-1 px-2 pt-2 pb-3">
+            <NavLink
+              to="/about-me"
+              className={({ isActive }) =>
+                isActive
+                  ? "bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  : "text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              }
+              aria-current="page"
+            >
+              About Me
+            </NavLink>
 
-          <a
-            href="#"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >
-            Team
-          </a>
+            <NavLink
+              to="/portfolio"
+              className={({ isActive }) =>
+                isActive
+                  ? "bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  : "text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              }
+              aria-current="page"
+            >
+              Portfolio
+            </NavLink>
 
-          <a
-            href="#"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >
-            Projects
-          </a>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                isActive
+                  ? "bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  : "text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              }
+              aria-current="page"
+            >
+              Contact
+            </NavLink>
 
-          <a
-            href="#"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >
-            Calendar
-          </a>
+            <NavLink
+              to="/resume"
+              className={({ isActive }) =>
+                isActive
+                  ? "bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  : "text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              }
+              aria-current="page"
+            >
+              Resume
+            </NavLink>
+          </div>
         </div>
-      </div> */}
       </nav>
       <Routes>
         <Route path="/about-me" element={<AboutMe />} />
@@ -164,6 +184,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
+      {/* TODO: Refactor navbar into component */}
+      {/* Insert Footer Component */}
+      <Footer />
     </>
   );
 }
