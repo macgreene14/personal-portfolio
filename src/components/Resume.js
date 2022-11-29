@@ -13,7 +13,7 @@ function Resume() {
   }
 
   return (
-    <div>
+    <div className="my-4 flex flex-wrap justify-evenly">
       <Document
         renderTextLayer="false"
         file={resume}
