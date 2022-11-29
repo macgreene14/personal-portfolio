@@ -6,7 +6,7 @@
   
   ## Deployed Application
 
-  "https://macgreene14.github.io/react-portfolio",
+  https://macgreene14.github.io/react-portfolio
   
   ## Table of Contents
   
