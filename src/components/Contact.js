@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <>
-      <div className="m-8">
+      <div className="m-20">
         <form action="#" class="space-y-8">
           <div>
             <label

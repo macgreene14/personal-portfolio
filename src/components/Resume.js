@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import resume from "../assets/pdf/resume.pdf";
+import "react-pdf/dist/esm/Page/TextLayer.css";
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
 function Resume() {
@@ -12,7 +14,11 @@ function Resume() {
 
   return (
     <div>
-      <Document file={resume} onLoadSuccess={onDocumentLoadSuccess}>
+      <Document
+        renderTextLayer="false"
+        file={resume}
+        onLoadSuccess={onDocumentLoadSuccess}
+      >
         <Page pageNumber={pageNumber} />
       </Document>
       <p>

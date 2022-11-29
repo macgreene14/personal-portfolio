@@ -5,6 +5,7 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
+  Navigate,
 } from "react-router-dom";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
@@ -18,6 +19,7 @@ function App() {
     <>
       <Header />
       <Routes>
+        <Route path="/" element={<Navigate to="about-me" />} />
         <Route path="/about-me" element={<AboutMe />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />

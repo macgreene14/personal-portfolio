@@ -4,16 +4,16 @@ function Portfolio() {
   return (
     <div className="my-4 flex flex-wrap justify-evenly">
       <Card
-        href="#"
+        href="https://github.com/macgreene14/novelty-book-swap"
         imgSrc="https://raw.githubusercontent.com/VaishaliQA/Novelty_Project/main/public/assets/img/novelty-browse.png"
         title="Novelty"
         content="A peer-to-peer book sharing application which enables users to connect and share personal books"
       />
       <Card
         href="https://macgreene14.github.io/weather-dashboard/"
-        imgSrc="https://user-images.githubusercontent.com/33014789/184725282-22639646-ea7d-4bea-8369-707e70ee2993.png"
+        imgSrc={require("../assets/img/weather-dashboard.png")}
         title="Weather Dashboard"
-        content="A minimalist dashboard for viewing current weather in a selected city"
+        content="A minimalist dashboard for viewing current weather in a selected city. Current and 5-day forecated are rendered to view."
       />
       <Card
         href="https://mysterious-river-44284.herokuapp.com/"
