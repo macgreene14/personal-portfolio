@@ -19,7 +19,8 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<AboutMe />} />
+        <Route path="/react-portfolio" element={<AboutMe />} />
+        <Route path="/about-me" element={<AboutMe />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
