@@ -5,14 +5,20 @@ import {
   Routes,
   useLocation,
 } from "react-router-dom";
+import { useState } from "react";
 
 export default function Header() {
+  const [navbarOpen, setNavbarOpen] = useState(false);
+  const handleToggle = () => {
+    setNavbarOpen(!navbarOpen);
+  };
   return (
     <nav className="bg-gray-800">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <button
+              onClick={handleToggle}
               type="button"
               className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-controls="mobile-menu"
@@ -118,7 +124,10 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="sm:hidden" id="mobile-menu">
+      <div
+        className={`sm:hidden ${navbarOpen ? "block" : "hidden"}`}
+        id="mobile-menu"
+      >
         <div className="space-y-1 px-2 pt-2 pb-3">
           <NavLink
             to="/about-me"

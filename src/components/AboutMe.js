@@ -1,6 +1,11 @@
 function AboutMe() {
   return (
-    <>
+    <div
+    // style={{
+    //   backgroundImage:
+    //     "url('https://static01.nyt.com/images/2021/01/26/sports/26snowboard-kianaclay/merlin_182648193_87add28a-6b69-407b-9d3b-0a4f39bd75b6-superJumbo.jpg?quality=75&auto=webp')",
+    // }}
+    >
       <section>
         <h1 className="m-4 text-2xl font-bold tracking-tight sm:text-center sm:text-4xl">
           About Me
@@ -18,7 +23,7 @@ function AboutMe() {
           className="mx-auto max-w-lg h-auto rounded-lg"
         />
       </section>
-    </>
+    </div>
   );
 }
 
