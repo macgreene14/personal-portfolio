@@ -1,7 +1,10 @@
 function Footer() {
   return (
     <>
-      <footer className="fixed bottom-0 w-screen p-4 bg-white sm:p-6 dark:bg-gray-900">
+      <footer
+        className="p-4 bg-white sm:p-6 dark:bg-gray-900"
+        style={{ height: "10vh" }}
+      >
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2022. All Rights Reserved.

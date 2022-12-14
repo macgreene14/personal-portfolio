@@ -5,10 +5,12 @@ import {
   Routes,
   useLocation,
 } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = useState(false);
+  let path = useLocation();
+  useEffect(() => setNavbarOpen(false), [path]);
   const handleToggle = () => {
     setNavbarOpen(!navbarOpen);
   };
