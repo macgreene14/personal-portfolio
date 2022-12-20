@@ -4,10 +4,10 @@ function Portfolio() {
   return (
     <div className="my-4 flex flex-wrap justify-evenly">
       <Card
-        href="https://github.com/macgreene14/novelty-book-swap"
-        imgSrc="https://raw.githubusercontent.com/VaishaliQA/Novelty_Project/main/public/assets/img/novelty-browse.png"
-        title="Novelty"
-        content="A peer-to-peer book sharing application which enables users to connect and share personal books"
+        href="https://rplace1.herokuapp.com/"
+        imgSrc="https://user-images.githubusercontent.com/33014789/208559822-9bf65a07-a275-441a-8a4e-1e76e4b6db9b.png"
+        title="Rplace"
+        content="A social media site with a customizable profile page where users can post music, videos, and other embedded pages."
       />
       <Card
         href="https://macgreene14.github.io/weather-dashboard/"
