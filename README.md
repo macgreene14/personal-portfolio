@@ -6,7 +6,10 @@
   
   ## Deployed Application
 
-  https://macgreene14.github.io/react-portfolio
+  https://macgreene14.github.io/personal-portfolio
+  
+  or
+  http://macgreene.com
   
   ## Table of Contents
   
