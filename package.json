@@ -4,6 +4,7 @@
   "homepage": "https://macgreene14.github.io/react-portfolio",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@headlessui/react": "^1.7.4",
     "@heroicons/react": "^2.0.13",
     "@testing-library/jest-dom": "^5.16.5",
