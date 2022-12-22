@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c62074e7.css",
-    "main.js": "/react-portfolio/static/js/main.5643693e.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/headshot.jpeg": "/react-portfolio/static/media/headshot.47a0209ad09691d9ab9d.jpeg",
-    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.c4f5463b78c6b3af61dc.png",
-    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.d107d02d3d8e67f44909.png",
-    "static/media/resume.pdf": "/react-portfolio/static/media/resume.833212839a1177c9a86b.pdf",
-    "index.html": "/react-portfolio/index.html",
-    "main.c62074e7.css.map": "/react-portfolio/static/css/main.c62074e7.css.map",
-    "main.5643693e.js.map": "/react-portfolio/static/js/main.5643693e.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/personal-portfolio/static/css/main.714c3f46.css",
+    "main.js": "/personal-portfolio/static/js/main.c3d2b9ad.js",
+    "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/headshot.jpeg": "/personal-portfolio/static/media/headshot.47a0209ad09691d9ab9d.jpeg",
+    "static/media/weather-dashboard.png": "/personal-portfolio/static/media/weather-dashboard.c4f5463b78c6b3af61dc.png",
+    "static/media/tech-blog.png": "/personal-portfolio/static/media/tech-blog.d107d02d3d8e67f44909.png",
+    "static/media/resume.pdf": "/personal-portfolio/static/media/resume.833212839a1177c9a86b.pdf",
+    "index.html": "/personal-portfolio/index.html",
+    "main.714c3f46.css.map": "/personal-portfolio/static/css/main.714c3f46.css.map",
+    "main.c3d2b9ad.js.map": "/personal-portfolio/static/js/main.c3d2b9ad.js.map",
+    "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c62074e7.css",
-    "static/js/main.5643693e.js"
+    "static/css/main.714c3f46.css",
+    "static/js/main.c3d2b9ad.js"
   ]
 }
