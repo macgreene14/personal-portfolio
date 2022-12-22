@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.714c3f46.css",
-    "main.js": "/personal-portfolio/static/js/main.c3d2b9ad.js",
-    "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
-    "static/media/headshot.jpeg": "/personal-portfolio/static/media/headshot.47a0209ad09691d9ab9d.jpeg",
-    "static/media/weather-dashboard.png": "/personal-portfolio/static/media/weather-dashboard.c4f5463b78c6b3af61dc.png",
-    "static/media/tech-blog.png": "/personal-portfolio/static/media/tech-blog.d107d02d3d8e67f44909.png",
-    "static/media/resume.pdf": "/personal-portfolio/static/media/resume.833212839a1177c9a86b.pdf",
-    "index.html": "/personal-portfolio/index.html",
-    "main.714c3f46.css.map": "/personal-portfolio/static/css/main.714c3f46.css.map",
-    "main.c3d2b9ad.js.map": "/personal-portfolio/static/js/main.c3d2b9ad.js.map",
-    "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
+    "main.css": "/static/css/main.714c3f46.css",
+    "main.js": "/static/js/main.c3d2b9ad.js",
+    "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
+    "static/media/headshot.jpeg": "/static/media/headshot.47a0209ad09691d9ab9d.jpeg",
+    "static/media/weather-dashboard.png": "/static/media/weather-dashboard.c4f5463b78c6b3af61dc.png",
+    "static/media/tech-blog.png": "/static/media/tech-blog.d107d02d3d8e67f44909.png",
+    "static/media/resume.pdf": "/static/media/resume.833212839a1177c9a86b.pdf",
+    "index.html": "/index.html",
+    "main.714c3f46.css.map": "/static/css/main.714c3f46.css.map",
+    "main.c3d2b9ad.js.map": "/static/js/main.c3d2b9ad.js.map",
+    "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.714c3f46.css",
