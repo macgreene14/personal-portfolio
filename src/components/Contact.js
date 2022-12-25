@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../assets/css/Contact.css";
-import "../assets/css/AboutMe.css";
+import "../assets/css/Background.css";
 
 function Contact() {
   const form = useRef();
@@ -26,7 +26,7 @@ function Contact() {
   };
 
   return (
-    <div className="p-8 bg flex justify-center">
+    <div className="p-8 bg flex justify-center" style={{ height: "100vh" }}>
       <form ref={form} onSubmit={sendEmail} className="basis-1/2">
         <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
           Email
@@ -50,7 +50,7 @@ function Contact() {
           placeholder="Subject"
           required
         />
-        <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">
+        <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
           Message
         </label>
         <textarea

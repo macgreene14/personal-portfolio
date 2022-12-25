@@ -15,7 +15,7 @@ export default function Header() {
     setNavbarOpen(!navbarOpen);
   };
   return (
-    <nav className="bg-rose-500">
+    <nav className="bg-gray-700">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -100,17 +100,6 @@ export default function Header() {
                 </NavLink>
 
                 <NavLink
-                  to="/contact"
-                  className={({ isActive }) =>
-                    isActive
-                      ? "bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  }
-                >
-                  Contact
-                </NavLink>
-
-                <NavLink
                   to="/resume"
                   className={({ isActive }) =>
                     isActive
@@ -119,6 +108,17 @@ export default function Header() {
                   }
                 >
                   Resume
+                </NavLink>
+
+                <NavLink
+                  to="/contact"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  }
+                >
+                  Contact
                 </NavLink>
               </div>
             </div>
@@ -156,18 +156,6 @@ export default function Header() {
           </NavLink>
 
           <NavLink
-            to="/contact"
-            className={({ isActive }) =>
-              isActive
-                ? "bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
-                : "text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-            }
-            aria-current="page"
-          >
-            Contact
-          </NavLink>
-
-          <NavLink
             to="/resume"
             className={({ isActive }) =>
               isActive
@@ -177,6 +165,18 @@ export default function Header() {
             aria-current="page"
           >
             Resume
+          </NavLink>
+
+          <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              isActive
+                ? "bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+                : "text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            }
+            aria-current="page"
+          >
+            Contact
           </NavLink>
         </div>
       </div>

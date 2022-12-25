@@ -1,7 +1,7 @@
-import "../assets/css/AboutMe.css";
+import "../assets/css/Background.css";
 function AboutMe() {
   return (
-    <div className="bg p-8">
+    <div className="bg p-8" style={{ height: "100vh" }}>
       <section className="pxy">
         <h1 className="m-4 text-2xl font-bold tracking-tight sm:text-center sm:text-4xl lg:px-8">
           About Me
@@ -10,7 +10,7 @@ function AboutMe() {
           Mac Greene is an aspiring web developer based out of Nashville, TN. He
           received a B.S. in Engineering from Fort Lewis College in Durango,
           Colorado. Since graduating, Mac has worked as a project engineering
-          for Nextracker; a leading providing of utility racking systems.
+          for Nextracker; a leading provider of utility racking systems.
         </p>
 
         <img

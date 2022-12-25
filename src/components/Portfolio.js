@@ -1,10 +1,13 @@
 import Card from "./Card";
-import "../assets/css/AboutMe.css";
+import "../assets/css/Background.css";
 
 function Portfolio() {
   return (
     <div className="bg">
-      <div className=" flex flex-wrap justify-evenly">
+      <div
+        className=" flex flex-wrap justify-evenly"
+        style={{ height: "100vh" }}
+      >
         <Card
           href="https://rplace1.herokuapp.com/"
           imgSrc="https://user-images.githubusercontent.com/33014789/208559822-9bf65a07-a275-441a-8a4e-1e76e4b6db9b.png"
