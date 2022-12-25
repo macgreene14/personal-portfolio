@@ -12,6 +12,7 @@ function AboutMe() {
           Colorado. Since graduating, Mac has worked as a project engineering
           for Nextracker; a leading providing of utility racking systems.
         </p>
+
         <img
           src={require("../assets/img/headshot.jpeg")}
           alt="Mac Greene Headshot"

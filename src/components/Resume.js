@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import resume from "../assets/pdf/resume.pdf";
 import "react-pdf/dist/esm/Page/TextLayer.css";
+import "../assets/css/AboutMe.css";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
@@ -13,7 +14,7 @@ function Resume() {
   }
 
   return (
-    <div className="my-4 flex flex-wrap justify-evenly">
+    <div className="flex flex-wrap justify-evenly bg">
       <Document
         renderTextLayer="false"
         file={resume}
